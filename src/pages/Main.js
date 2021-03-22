@@ -17,7 +17,7 @@ const Main = () => {
                 <p>It uses utility classes for typography and spacing to space content out within the larger
                     container.</p>
                 <ButtonGroup>
-                    <Button color="info" onClick={() => navigate('/c-gpa')}>Calculate Your CGPA</Button>
+                    <Button color="info" onClick={() => navigate('/gpa/c-gpa')}>Calculate Your CGPA</Button>
                     <Button color="info" onClick={() => navigate('/gpa')}>Calculate Your GPA</Button>
                 </ButtonGroup>
             </Jumbotron>

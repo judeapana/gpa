@@ -7,7 +7,7 @@ import Gpa from "../pages/Gpa";
 const Routes = () => {
     return useRoutes([
         {path: '/', element: <Main/>},
-        {path: '/c-gpa', element: <AccumulativeGpa/>},
+        {path: '/gpa/c-gpa', element: <AccumulativeGpa/>},
         {path: '/gpa', element: <Gpa/>}
     ])
 }
